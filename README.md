@@ -13,7 +13,7 @@ Nexa nexa;<br />
 <br />
 **Set output pin.**<br />
 void setup() {<br />
-	nexa.setRadioPin(2);<br />
+&nbsp;nexa.setRadioPin(2);<br />
 }<br />
 <br />
 **Introduce new device.**<br />
