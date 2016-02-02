@@ -8,10 +8,12 @@ See ref-folder how to do soldering of remote controller in order to connect it i
 
 First install library into your environment. (In Windows Arduino IDE: just copy it into libraries-folder)
 
+**Make instance.**
 Nexa nexa;
 
-void setup() {    
-    nexa.setRadioPin(2); // Signal out to controller.
+**Set output pin.**
+void setup() {
+	nexa.setRadioPin(2);
 }
 
 **Introduce new device.**
